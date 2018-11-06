@@ -1,0 +1,100 @@
+$amarillo: #F9D120
+$negro: #222222
+$blanco: #ffffff
+
+$xsm: 320px,
+// Small screen / phone
+$sm: 576px,
+// Medium screen / tablet
+$md: 768px,
+// Large screen / desktop
+$lg: 992px,
+// Extra large screen / wide desktop
+$xl: 1200px
+
+body
+  margin: 0
+  padding: 0
+  background-image: url('../assets/imgs/wallpaper-stars.jpg')
+  background-size: contain
+  font-family: 'Open Sans', sans-serif
+  color: $blanco
+header
+  width: 100%
+  text-align: center
+#menu
+  width: 100%
+  top: 0px
+.items-menu
+  list-style: none
+  padding: 10px 0px
+  li
+    display: inline-flex
+    padding: 10px
+  a
+    text-decoration: none
+    cursor: pointer
+    color: $blanco
+.items-menu .active
+  color: $amarillo
+  text-decoration: underline
+#titleSW
+  width: 40%
+  top: 20px
+  position: relative
+  @media (min-width: $sm) and (min-width: $lg)
+    width: 20%
+  @media (min-width: $md) and (min-width: $xl)
+    width: 20%
+.content
+  width: 90%
+  margin: auto
+  display: block
+.row
+  display: block
+  @media (min-width: $sm) and (min-width: $xl)
+    width: 100%
+    display: inline-flex
+.breadcrumb
+  list-style: none
+  padding: 10px 0px
+  width: 70%
+  @media (min-width: $md) and (min-width: $xl)
+    margin: auto
+  li
+    display: inline
+  a
+    color: $blanco
+.breadcrumb li:first-child:after
+  padding: 8px
+  color: $blanco
+  content: "\003e"
+#content-card
+  width: 100%
+  height: auto
+  background-color: #eee
+  padding-top: 10px
+  @media (min-width: $md) and (min-width: $xl)
+    display: inline-flex
+.card
+  display: inline-flex
+  width: 100%
+  background-color: rgba(249, 209, 32, 0.7)
+  color: $blanco
+  margin-bottom: 15px
+  cursor: pointer
+  border-radius: 10px
+  h3
+    margin: 0
+  @media (min-width: $md) and (min-width: $xl)
+    width: 70%
+    margin: auto
+    display: block
+.card:hover
+  border: $blanco
+.iconPsj
+  width: 10%
+#cardFilms, #cardPersonajes
+  width: 100%
+.item-card
+  padding: 20px

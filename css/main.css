@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assets/imgs/wallpaper-stars.jpg");
+  background-size: contain;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff; }
+
+header {
+  width: 100%;
+  text-align: center; }
+
+#menu {
+  width: 100%;
+  top: 0px; }
+
+.items-menu {
+  list-style: none;
+  padding: 10px 0px; }
+  .items-menu li {
+    display: inline-flex;
+    padding: 10px; }
+  .items-menu a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff; }
+
+.items-menu .active {
+  color: #F9D120;
+  text-decoration: underline; }
+
+#titleSW {
+  width: 40%;
+  top: 20px;
+  position: relative; }
+  @media (min-width: 576px) and (min-width: 992px) {
+    #titleSW {
+      width: 20%; } }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    #titleSW {
+      width: 20%; } }
+
+.content {
+  width: 90%;
+  margin: auto;
+  display: block; }
+
+.row {
+  display: block; }
+  @media (min-width: 576px) and (min-width: 1200px) {
+    .row {
+      width: 100%;
+      display: inline-flex; } }
+
+.breadcrumb {
+  list-style: none;
+  padding: 10px 0px;
+  width: 70%; }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    .breadcrumb {
+      margin: auto; } }
+  .breadcrumb li {
+    display: inline; }
+  .breadcrumb a {
+    color: #ffffff; }
+
+.breadcrumb li:first-child:after {
+  padding: 8px;
+  color: #ffffff;
+  content: ">"; }
+
+#content-card {
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  padding-top: 10px; }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    #content-card {
+      display: inline-flex; } }
+
+.card {
+  display: inline-flex;
+  width: 100%;
+  background-color: rgba(249, 209, 32, 0.7);
+  color: #ffffff;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 10px; }
+  .card h3 {
+    margin: 0; }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    .card {
+      width: 70%;
+      margin: auto;
+      display: block; } }
+
+.card:hover {
+  border: #ffffff; }
+
+.iconPsj {
+  width: 10%; }
+
+#cardFilms, #cardPersonajes {
+  width: 100%; }
+
+.item-card {
+  padding: 20px; }
+
+/*# sourceMappingURL=main.css.map */
